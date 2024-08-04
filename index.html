@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- Project Bikin Web Kaya di foto -->
+<!-- Dibuat Oleh Matias Pada Jumaat 2 Agustus -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myt.cz Product</title>
+    <!-- Untuk Link Ke arah Style : -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="Action.js"></script>
+  </head>
+  <body class="Shop">
+    <!-- Bagian Navibar -->
+    <nav class="Navigasi">
+      <div class="Logo">
+        <!--Menata Ulang CLass 02/08/2024 21.39-->
+        <img id="Image" src="Logo.png" alt="Logo.png" />
+        <h4 span id="TeksLogoTitle">Myt.tz Product</h4>
+      </div>
+      <ol>
+        <!--Ini List Bar Menu saya 21.48 02/08/2024 -->
+        <div class="ListBar">
+          <ul class="Bar1">
+            <!-- Mn1 = Menu1 Seterusnya 21.50 -->
+            <a id="Mn1" href="#" onclick="Shown1()">Home</a>
+            <a id="Mn2" href="#" onclick="Shown1()">Shop</a>
+            <a id="Mn3" href="#About" onclick="Shown()">About</a>
+            <a id="Mn4" href="#Nama" onclick="Shown1()">Login</a>
+          </ul>
+        </div>
+      </ol>
+    </nav>
+    <content id="Act" class="Contents">
+      <!-- Bagian Konten Isi Form 22.19 02/08/2024-->
+      <form class="Formulir" action="">
+        <div class="TitleForm">
+          <h1 id="TextLogin">Account</h1>
+          <button id="Exit" onclick="ShownC()">X</button>
+          <!--Judul Nya Buat formulir 23.19 02/08/2024-->
+        </div>
+        <div class="IsiForm">
+          <!--ISI FORMULIR 23.34 02/08/2024-->
+          <div class="Isi">
+            <span id="Formula">
+              <div>
+                <div class="Labels">
+                  <label id="TextLabel" for="Nama">Username:</label>
+                </div>
+                <input type="text" id="Nama" placeholder=" Nama / Email Anda" />
+                <div class="Labels">
+                  <label id="TextLabel" for="Pass">Password:</label>
+                </div>
+                <input type="password" id="Pass" placeholder="Password" />
+                <span class="ButtonClick">
+                  <button id="SendSubmit" type="submit">Login</button>
+                </span>
+              </div></span
+            >
+          </div>
+        </div>
+      </form>
+    </content>
+    <conten1 class="Cnt" id="conten1">
+      <div class="Backs">
+        <div class="Abouts">
+          <!--20.27 About bahasa-->
+          <h1 id="About">Lengague Support</h1>
+        </div>
+        <div class="Lengague">
+          <ol class="lang">
+            <ul class="Html">
+              <img src="Html.png" alt="Html.png" />
+              <h1 id="Html">HTML</h1> 
+            </ul>
+            <ul class="Css">
+              <img src="Css.png" alt="Html.png" />
+              <h1 id="Css">CSS</h1>
+            </ul>    
+                </ul>
+                
+                <ul class="Picture">
+                  <img id="SizeMg" src="js.png" alt="Html.png" />
+                  <h1 id="Js">JAVA Script</h1>
+                </ul>
+              </ol>
+            </div>
+          <div class="Rawr">
+
+            <ol class="TxAbs">
+              <ul class="Rawr">
+                
+              </ul>
+            </ol>
+          </div>
+          </div>
+      </div>
+    </conten1>
+    <Bio id="Bio" class="Biodata">
+      <div class="Bioda">
+        <div class="Biod">
+          <ol>
+            <ul class="Mes">
+              <div class="Gambar">
+                <img id="Gambar" src="Prof.png" alt="MyProf" width="250px" />
+              </ul>
+              <ul class="Mes">
+                
+                <div class="TextBio">
+                  <strong>
+                    <h1 id="Titled">This is My Bio</h1>
+                    
+                    <p id="PBal">Hai, My Name Is Matias. Im is Childern And Im is Newbie</p>
+                    <p id="PBal">Im Now school in SMKN 1 Kertajati</p>
+                    
+                    <h1 id="Row">Lengague Im Learn</h1>
+                    
+                    <p id="PBal">Im Learn Just Java Script, Html, Css, Python</p>
+                  </strong>
+                </ul>
+              </div>
+            </ol>
+            <bioabys class="bioabys">
+              <div class="Bioab">
+                <div class="Biob">
+                  <video src="Rec.mp4" width="50%" height="2px" loop autoplay id="Vig"></video>
+                </div>
+              </div>
+            </bioabys>
+          </div>
+        </div>
+      </div>
+    </Bio>
+  </body>
+</html>
